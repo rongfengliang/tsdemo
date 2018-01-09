@@ -1,3 +1,3 @@
 export default function log(target:any){
-  console.log("UserType log is call");
+  console.log("UserType log is call","demo");
 }

@@ -6,6 +6,7 @@
   "scripts": {
     "build-b": "browserify rong.js -o index.js",
     "live": "live-server",
+    "ts":"tsc -w",
     "app": "browserify -t [ sheetify ] rong.js -o index.js "
   },
   "dependencies": {
