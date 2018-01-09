@@ -1,0 +1,17 @@
+{
+  "name": "typescriptsdemo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build-b": "browserify rong.js -o index.js",
+    "live": "live-server",
+    "app": "browserify -t [ sheetify ] rong.js -o index.js "
+  },
+  "dependencies": {
+    "bel": "^5.1.5",
+    "browserify": "^15.0.0",
+    "live-server": "^1.2.0",
+    "sheetify": "^6.2.0"
+  }
+}
